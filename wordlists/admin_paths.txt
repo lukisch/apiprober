@@ -1,0 +1,22 @@
+# Admin / Management Paths (~15 Eintraege)
+/admin
+/admin/api
+/management
+/manage
+/internal
+/internal/api
+/system
+/system/health
+/health
+/healthcheck
+/health/check
+/ready
+/readiness
+/liveness
+/status
+/info
+/version
+/metrics
+/actuator
+/actuator/health
+/actuator/info

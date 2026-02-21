@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=64", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "apiprober"
+version = "0.1.0"
+description = "Systematic API probing tool for undocumented or poorly documented services"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+authors = [
+    {name = "Lukas Geiger", email = "lukisch@users.noreply.github.com"},
+]
+keywords = ["api", "probing", "discovery", "openapi", "rest", "documentation"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Software Development :: Testing",
+    "Topic :: Internet :: WWW/HTTP",
+]
+
+[project.urls]
+Homepage = "https://github.com/lukisch/apiprober"
+Repository = "https://github.com/lukisch/apiprober"
+Issues = "https://github.com/lukisch/apiprober/issues"
+
+[project.scripts]
+apiprober = "ApiProber.api_prober:main"
+
+[tool.setuptools.packages.find]
+include = ["ApiProber*"]
+
+[tool.setuptools.package-data]
+ApiProber = [
+    "config.json",
+    "wordlists/*.txt",
+]

@@ -1,0 +1,23 @@
+# OpenAPI / Swagger Detection Paths (~20 Eintraege)
+/swagger.json
+/swagger.yaml
+/swagger
+/swagger-ui
+/swagger-ui.html
+/swagger-ui/index.html
+/swagger-resources
+/openapi.json
+/openapi.yaml
+/openapi
+/api-docs
+/api-docs.json
+/docs
+/docs/api
+/redoc
+/api/docs
+/api/swagger.json
+/api/openapi.json
+/v1/swagger.json
+/v2/swagger.json
+/v3/swagger.json
+/.well-known/openapi

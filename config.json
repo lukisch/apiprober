@@ -1,0 +1,14 @@
+{
+    "delay_ms": 500,
+    "max_requests": 500,
+    "max_depth": 3,
+    "timeout_seconds": 15,
+    "user_agent": "ApiProber/0.1 (github.com/lukisch; passive-discovery)",
+    "respect_robots_txt": true,
+    "skip_destructive": true,
+    "strategies": ["openapi", "wordlist", "pattern", "response_driven"],
+    "auth": {
+        "type": "none",
+        "value": ""
+    }
+}

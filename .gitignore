@@ -1,3 +1,7 @@
+# Internal planning files
+PLAN.txt
+PLAN_*.txt
+
 # Python
 __pycache__/
 *.py[cod]

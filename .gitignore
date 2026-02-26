@@ -21,6 +21,20 @@ exports/
 *.swp
 *.swo
 
+# Private / Archive
+_archive/
+_private/
+
+# Virtual Environment
+.venv/
+venv/
+
+# Environment Variables
+.env
+
+# Logs
+*.log
+
 # OS
 .DS_Store
 Thumbs.db

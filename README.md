@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="ApiProber_logo.jpg" alt="ApiProber" width="700">
+</p>
+
 # ApiProber -- Systematic API Discovery Tool
 
 Probe undocumented or poorly documented APIs. Discover endpoints through
